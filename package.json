@@ -37,7 +37,7 @@
     "framer-motion": "^12.4.7",
     "konva": "^10.9.1",
     "lucide-react": "^0.475.0",
-    "next": "15.1.7",
+    "next": "15.1.11",
     "nodemailer": "^6.9.16",
     "papaparse": "^5.7.1",
     "pdf-lib": "^1.17.1",
