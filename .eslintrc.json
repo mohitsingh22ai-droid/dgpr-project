@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "ignorePatterns": ["node_modules/", ".next/", "playwright-report/", "test-results/"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "warn"
+  }
+}

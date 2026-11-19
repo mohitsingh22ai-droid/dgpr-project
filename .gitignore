@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Local Environment Variables (§ 15: NEVER commit secrets)
+.env*
+!.env.example
+!.env.test.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Interim JSON data stores (never committed; replaced by Supabase in Phase 1)
+/.data/
+/.data-*/
+/.*-store.json
+/.email-captured-sink.json
+/test-results/
+/playwright-report/
